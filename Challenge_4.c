@@ -8,7 +8,7 @@ int main()
     float metre=0;
     printf("Entrer la distance en mile :");
     scanf("%f",&mile);
-    km = mile / 1.609;
+    km = mile * 1.609;
     metre = km*1000;
     
     printf("la distance en metre est : %f",metre);
